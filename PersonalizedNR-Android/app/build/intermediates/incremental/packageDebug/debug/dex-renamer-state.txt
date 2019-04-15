@@ -1,0 +1,4 @@
+#Wed Apr 03 15:24:38 CDT 2019
+base.0=/Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

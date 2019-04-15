@@ -1,0 +1,4 @@
+See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/build/tmp/linkFrequencyDomainArmeabi-v7aDebugSharedLibrary/output.txt for all output for linkFrequencyDomainArmeabi-v7aDebugSharedLibrary.
+linking libFrequencyDomain.so successful.
+
+Finished linkFrequencyDomainArmeabi-v7aDebugSharedLibrary, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/build/tmp/linkFrequencyDomainArmeabi-v7aDebugSharedLibrary/output.txt.

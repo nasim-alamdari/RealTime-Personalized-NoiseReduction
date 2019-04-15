@@ -1,0 +1,17 @@
+See file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/build/tmp/compileFrequencyDomainArmeabi-v7aDebugSharedLibraryFrequencyDomainArmeabi-v7aDebugSharedLibraryMainCpp/output.txt for all output for compileFrequencyDomainArmeabi-v7aDebugSharedLibraryFrequencyDomainArmeabi-v7aDebugSharedLibraryMainCpp.
+compiling SuperpoweredAndroidAudioIO.cpp successful.
+
+compiling FrequencyDomain.cpp successful.
+In file included from /Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/Other/SPLBuffer.h:13:0,
+                 from /Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/SpeechProcessing.h:17,
+                 from /Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/FrequencyDomain.cpp:15:
+/Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/Settings.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import <stdlib.h>
+  ^
+In file included from /Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/SpeechProcessing.h:18:0,
+                 from /Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/FrequencyDomain.cpp:15:
+/Users/nxt170030/Documents/JournalsConferences/GitHub/Final Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/src/main/jni/Settings.h:10:2: warning: #import is a deprecated GCC extension [-Wdeprecated]
+ #import <stdlib.h>
+  ^
+
+Finished compileFrequencyDomainArmeabi-v7aDebugSharedLibraryFrequencyDomainArmeabi-v7aDebugSharedLibraryMainCpp, see full log file:///Users/nxt170030/Documents/JournalsConferences/GitHub/Final%20Versions/PersonalizedNR-App/Android/PersonalizedNR-Android/app/build/tmp/compileFrequencyDomainArmeabi-v7aDebugSharedLibraryFrequencyDomainArmeabi-v7aDebugSharedLibraryMainCpp/output.txt.
