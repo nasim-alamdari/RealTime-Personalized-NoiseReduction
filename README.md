@@ -20,3 +20,10 @@ All material related to our paper is available via the following links:
 ## Getting Started
 
 A [User's Guide](Users-Guide-PersonalizedNoiseReduction.pdf) is provided with this project which provides all the description required for running the Personalized Noise Reduction and compression on Smartphones.
+
+Requirement
+-------------------
+To run the Android version of the Compression app, it is necessary to have Superpowered SDK which can be obtained from the following link: https://superpowered.com.
+Then, adding the path of superpowered in gradle/local.properties:
+
+    superpowered.dir = /.../SuperpoweredSDK/Superpowered
