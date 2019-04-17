@@ -1,0 +1,424 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.superpowered.IntegratedApp.NoiseClassificationSettings"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="false"
+                android:background="@color/custom_background"
+                android:stretchColumns="0,1"
+                android:shrinkColumns="1">
+
+
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Unsupervised Noise Classifier" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/vigilanceValue1Label"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:text="Vigilance Parameter 1"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/vigilanceValue1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:text="0.01"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/vigilanceValue2Label"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:text="Vigilance Parameter 2"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/vigilanceValue2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:text="0.9"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/FeatAvgBuffLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:text="#Frames in \nFeature Averaging"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/FeatAvgBuffVal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:text="80"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/NewClassCreationBuffLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:text="New Class Creation\n Time (sec.)"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/NewClassCreationBuffVal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:text="3.0"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/DecSmoothingBuffLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:text="Decision Smoothing\n Time (sec.)"
+                        android:textSize="15sp" />
+                    <EditText
+                        android:id="@+id/DecSmoothingBuffVal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:text="3.0"
+                        android:textSize="15sp"/>
+                </TableRow>
+
+
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Subject Specific Band Gains" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/firstBandLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:gravity="center_vertical|left"
+                        android:textSize="15sp"
+                        android:text="0-500Hz            :1.0" />
+                    <SeekBar
+                        android:id="@+id/firstBand"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:max="19"
+                        android:progress="9" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/secondBandLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:textSize="15sp"
+                        android:text="500-1000Hz     :1.0" />
+
+                    <SeekBar
+                        android:id="@+id/secondBand"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:max="19"
+                        android:progress="9" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/thirdBandLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:textSize="15sp"
+                        android:text="1000-2000Hz   :1.0" />
+
+                    <SeekBar
+                        android:id="@+id/thirdBand"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:max="19"
+                        android:progress="9" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/fourthBandLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:textSize="15sp"
+                        android:text="2000-4000Hz   :1.0" />
+
+                    <SeekBar
+                        android:id="@+id/fourthBand"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:max="19"
+                        android:progress="9" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp">
+
+                    <TextView
+                        android:id="@+id/fifthBandLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:textSize="15sp"
+                        android:text="Above 4000Hz :1.0" />
+
+                    <SeekBar
+                        android:id="@+id/fifthBand"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_weight="1"
+                        android:max="19"
+                        android:progress="9" />
+                </TableRow>
+
+
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="1dp">
+
+                    <TextView
+                        android:id="@+id/hybridModeLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:textSize="15sp"
+                        android:text="Hybrid Classification" />
+                    <Switch
+                        android:id="@+id/hybridMode"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_height="wrap_content"
+                        android:checked="false" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/saveDataLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/custom_view_height"
+                        android:gravity="center_vertical|left"
+                        android:layout_marginLeft="5dp"
+                        android:background="@android:color/white"
+                        android:textSize="15sp"
+                        android:text="Save Classification" />
+
+                    <Switch
+                        android:id="@+id/saveData"
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_height="wrap_content"
+                        android:checked="false" />
+                </TableRow>
+
+            </TableLayout>
+
+
+
+
+
+            <!-- <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="false"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="false"
+                android:background="@color/custom_background"
+                android:stretchColumns="0,1"
+                android:shrinkColumns="1">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/custom_background"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/statusView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="5sp"
+                    android:scrollbars="vertical"
+                    android:background="@android:color/background_light"
+                    android:textSize="14sp"
+                    android:text="Status" />
+            </TableRow>
+            </TableLayout> -->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
