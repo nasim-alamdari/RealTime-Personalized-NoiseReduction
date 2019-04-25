@@ -29,3 +29,11 @@ Then, adding the path of superpowered in gradle/local.properties:
         superpowered.dir = /.../SuperpoweredSDK/Superpowered
 
 2. To run the iOS version of the Personalized Noise Reduction app, it is necessary to have Tensorflow C++ API to run voice activity detection (VAD). The Tensorflow API can be downloaded or cloned from following link: https://www.tensorflow.org/install/
+
+## Licence and citations
+
+The Code is licensed under a MIT license.
+
+For any utilization of the content of this repository, the following papers is expected to be cited by the user:
+        1. N. Alamdari, S. Yaraganalu, and N. Kehtarnavaz, "A real-time personalized adaptive noise reduction smartphone app for realistic audio environments," Proceedings of IEEE Signal Processing in Medicine and Biology Symposium (SPMB), Philadelphia, PA, Dec 2018.
+        2. N. Alamdari, and N. Kehtarnavaz, “A Real-Time Smartphone App for Unsupervised Noise Classification in Realistic Audio Environments,” to appear in Proceedings of IEEE International Conference on Consumer Electronics, Las Vegas, NV, Jan 2019.
