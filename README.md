@@ -34,5 +34,5 @@ The codes are licensed under MIT license.
 
 For any utilization of the code content of this repository, the following paper needs to be cited by the user:
 
-N. Alamdari, S. Yaraganalu, and N. Kehtarnavaz, "A real-time personalized adaptive noise reduction smartphone app for realistic audio environments," Proceedings of IEEE Signal Processing in Medicine and Biology Symposium (SPMB), Philadelphia, PA, Dec 2018.
+- N. Alamdari, S. Yaraganalu, and N. Kehtarnavaz, "A real-time personalized adaptive noise reduction smartphone app for realistic audio environments," Proceedings of IEEE Signal Processing in Medicine and Biology Symposium (SPMB), Philadelphia, PA, Dec 2018.
 
